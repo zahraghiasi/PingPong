@@ -1,0 +1,264 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 4016 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker19
+-projectPath
+E:/SBU/MT/PingPong3D/PingPong3D
+-logFile
+Logs/AssetImportWorker19.log
+-srvPort
+57013
+Successfully changed project path to: E:/SBU/MT/PingPong3D/PingPong3D
+E:/SBU/MT/PingPong3D/PingPong3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 231.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/SBU/MT/PingPong3D/PingPong3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon HD 8600M Series (ID=0x6660)
+    Vendor:   ATI
+    VRAM:     2039 MB
+    Driver:   27.20.1034.6
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.042702 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 186.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1669ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1074ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (187ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7834ms)
+		BeginReloadAssembly (750ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (6149ms)
+			LoadAssemblies (2702ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (1931ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (250ms)
+				ProcessInitializeOnLoadAttributes (1217ms)
+				ProcessInitializeOnLoadMethodAttributes (404ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 3.31 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (112.5 KB). Loaded Objects now: 3698.
+Memory consumption went from 113.3 MB to 113.2 MB.
+Total: 192.012300 ms (FindLiveObjects: 0.391100 ms CreateObjectMapping: 0.223400 ms MarkObjects: 162.844100 ms  DeleteObjects: 28.551600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 776694.163814 seconds.
+  path: Assets/Art/Materials/Racket_2.mat
+  artifactKey: Guid(fcf471bdd72d74c51a79652e1ffd00f7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Art/Materials/Racket_2.mat using Guid(fcf471bdd72d74c51a79652e1ffd00f7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd08900a6c16fab15103b28eb04ca96a2') in 6.641995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CyberPong3D_Starter/Spark.prefab
+  artifactKey: Guid(e744f1a86815a4b929d4356976c9d433) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/CyberPong3D_Starter/Spark.prefab using Guid(e744f1a86815a4b929d4356976c9d433) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '3a3016e80a633b51caf199f587cdcaf2') in 0.810250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/Materials/CyberPong_Racket_1.psd
+  artifactKey: Guid(24eb14d54a8f34d999a2dd309e5d95f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Art/Materials/CyberPong_Racket_1.psd using Guid(24eb14d54a8f34d999a2dd309e5d95f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f730f9feecfabc22864008e223eda18b') in 0.165954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CyberPong3D_Starter/Ball.fbx
+  artifactKey: Guid(1a5979baa172d401690c1974d541f81a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/CyberPong3D_Starter/Ball.fbx using Guid(1a5979baa172d401690c1974d541f81a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '93cfed4be03909648d2caadc4f3f5257') in 5.940771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CyberPong3D_Starter/Player.prefab
+  artifactKey: Guid(8ba30c583e9114c27ba0c3ee746ab675) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/CyberPong3D_Starter/Player.prefab using Guid(8ba30c583e9114c27ba0c3ee746ab675) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'c9b20d7f6d4976ff305f00fc7641a41a') in 0.310709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CyberPong3D_Starter/StarterCountdown.prefab
+  artifactKey: Guid(cad0e498496594605b72a92d43bdb441) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/CyberPong3D_Starter/StarterCountdown.prefab using Guid(cad0e498496594605b72a92d43bdb441) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'cd73fc6c41d8eb98d0ce152ce2af3107') in 0.376109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'eb1821fc645074efde9db5c49c432472') in 0.217330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Script/GameController.cs
+  artifactKey: Guid(cc5961af43e515d4c97dfd40f2cc99e1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Script/GameController.cs using Guid(cc5961af43e515d4c97dfd40f2cc99e1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '60aed47a0f2670aed81c04fbecc32217') in 0.025666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Models/CyberRacket.fbx
+  artifactKey: Guid(dccba926f2de046ffbb1701a88668d67) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Art/Models/CyberRacket.fbx using Guid(dccba926f2de046ffbb1701a88668d67) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '576657bd5976968c7e1e64142d97e173') in 0.562432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050102 seconds.
+  path: Assets/Art/Models/Arena.fbx
+  artifactKey: Guid(03fa2700ed77c4f989d4c1e8642ca921) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Art/Models/Arena.fbx using Guid(03fa2700ed77c4f989d4c1e8642ca921) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'd1fa4c3c1d602e711b6afdf8f0de5772') in 0.251303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Materials/Arena.mat
+  artifactKey: Guid(5db85e95c0f044100a67b9b9e29bf9d1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Art/Materials/Arena.mat using Guid(5db85e95c0f044100a67b9b9e29bf9d1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: 'f7a63d0bc245bf7e2f5be8bb0e0fb8a3') in 0.312155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Materials/Racket_1.mat
+  artifactKey: Guid(da9f74edb7d634ae4990b3a3d7ba318f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Art/Materials/Racket_1.mat using Guid(da9f74edb7d634ae4990b3a3d7ba318f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '42f8a074c32cc8c82bc4035795923a34') in 0.134323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Materials/CyberPong_Arena_Emission.psd
+  artifactKey: Guid(f2fe0c0c2c9964b5e8fd43c352dd52bb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Art/Materials/CyberPong_Arena_Emission.psd using Guid(f2fe0c0c2c9964b5e8fd43c352dd52bb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '23def2f2e9e1288f6637edecf36458e2') in 0.355942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035240 seconds.
+  path: Assets/Art/Animations/Starter.controller
+  artifactKey: Guid(50a10a323022f469f92407ad9192e259) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Art/Animations/Starter.controller using Guid(50a10a323022f469f92407ad9192e259) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)  -> (artifact id: '323b9fbe53ac26785dce5861803c94d4') in 0.142172 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 828.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (76.6 KB). Loaded Objects now: 3700.
+Memory consumption went from 49.3 MB to 49.2 MB.
+Total: 43.186600 ms (FindLiveObjects: 0.838900 ms CreateObjectMapping: 0.403400 ms MarkObjects: 41.782500 ms  DeleteObjects: 0.160100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
